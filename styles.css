@@ -1,0 +1,171 @@
+/* These styles simulate Manifold's look and feel for ebook readers. */
+body {
+  font-family: freight-text-pro, Georgia, serif;
+  font-size: 120%;
+  line-height: 1.8;
+  letter-spacing: 0.01em;
+  margin: 0 auto;
+  text-align: justify;
+  padding: 0 3em 0 3em;
+  max-width: 650px;
+}
+p {
+  margin: 0 auto 0.2em;
+  text-align: justify;
+  text-indent: 2em;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+}
+/* HOUSE STYLES */
+h1 {
+  font-variant: small-caps;
+  font-size: 2.25em;
+}
+h2 {
+  font-size: 2em;
+}
+h3 {
+  font-size: 1.75em;
+}
+hr {
+  width: 30%;
+}
+.sup {
+  vertical-align: super;
+  font-size: smaller;
+}
+.sc {
+  font-variant: small-caps;
+}
+.center {
+  text-align: center;
+}
+.rt {
+  text-align: right;
+}
+.it {
+  font-style: italic;
+}
+/* Title Page */
+.title {
+  margin-top: 3em;
+  text-align: center;
+}
+.subtitle {
+  margin-top: 1em;
+  font-size: 1em;
+  text-align: center;
+}
+.subtitle2 {
+  margin-top: 0.75em;
+  font-size: 0.75em;
+  text-align: center;
+}
+.author {
+  font-size: 1.5em;
+  font-style: italic;
+}
+.editor {
+  margin-top: 3em;
+  font-size: 1em;
+}
+.ed2 {
+  margin: 0 auto 6em;
+  font-size: 0.8em;
+  font-style: italic;
+  text-align: center;
+  text-indent: 0;
+}
+.banner {
+  border-top: 0.25em double;
+  border-bottom: 0.25em double;
+  font-size: 0.75em;
+  text-align: center;
+  text-indent: 0;
+}
+/* Copyright page */
+.copyright {
+  margin-top: 4em;
+}
+p.copyright {
+  font-size: 0.75em;
+  text-indent: 0;
+  text-align: left;
+  margin: 1.5em auto 1em;
+}
+/* Divs */
+.chapter {
+  margin: 0 auto 4em;
+}
+.section {
+  margin: 0 auto 3em;
+}
+/* Header */
+.ct {
+  font-size: 1.5em;
+  margin-top: 3em;
+  font-variant: small-caps;
+}
+/* first paragraph in a chapter/section */
+p.pf {
+  text-indent: 0;
+}
+.publisher {
+  text-align: center;
+  font-style: italic;
+  margin: 0 auto 0;
+  text-indent: 0;
+}
+.pub1 {
+  text-align: center;
+  font-style: italic;
+  font-size: 0.8em;
+  margin: 0 auto 0;
+  text-indent: 0;
+}
+.cite {
+  text-align: right;
+  font-variant: small-caps;
+}
+.l2 {
+  text-indent: 4em;
+}
+.quote {
+  font-size: 80%;
+  margin: 1em auto;
+  width: 80%;
+  text-indent: 0;
+}
+.stanza {
+  width: 80%;
+  margin: 1em auto;
+  font-size: 80%;
+  text-indent: 0;
+}
+.stanza h3 {
+  text-align: center;
+  font-style: normal;
+  font-size: 1.25em;
+  margin-right: 2em;
+}
+.stanza p {
+  margin-left: 4em;
+  text-align: left;
+  text-indent: -2em;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footnotes {
+  border-top: 1pt solid gray;
+  font-family: sans-serif;
+  margin: 1em;
+  padding: 1em 0;
+}
+.footnotes p {
+  margin-bottom: 1em;
+  font-size: 1em;
+  text-indent: 0;
