@@ -3,7 +3,7 @@
   This style sheet is offered at no cost under a Creative Commons Attribution-Share-a-like 4.0 License. 
   Created by Paul L. Hebert, The Graduate Center, CUNY*/
 
-/* These styles simulate Manifold's look and feel for ebook readers. */
+/* [MANIFOL]: These styles simulate Manifold's look & feel for e-readers. */
 body {
   font-family: freight-text-pro, Georgia, serif;
   font-size: 120%;
@@ -22,7 +22,9 @@ p {
 h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
-/* HOUSE STYLES */
+/* [CUNY STUDENT EDITION HOUSE STYLES] */
+
+/* Basic Elements */
 h1 {
   font-variant: small-caps;
   font-size: 2.25em;
@@ -36,22 +38,33 @@ h3 {
 hr {
   width: 30%;
 }
-.sup {
-  vertical-align: super;
-  font-size: smaller;
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-.sc {
-  font-variant: small-caps;
-}
+
+/* Text Formatting */
 .center {
   text-align: center;
 }
 .rt {
   text-align: right;
 }
+.sup {
+  vertical-align: super;
+  font-size: smaller;
+}
 .it {
   font-style: italic;
 }
+.bld {
+  font-style: bold;
+}
+.sc {
+  font-variant: small-caps;
+}
+
 /* Title Page */
 .title {
   margin-top: 3em;
@@ -89,33 +102,6 @@ hr {
   text-align: center;
   text-indent: 0;
 }
-/* Copyright page */
-.copyright {
-  margin-top: 4em;
-}
-p.copyright {
-  font-size: 0.75em;
-  text-indent: 0;
-  text-align: left;
-  margin: 1.5em auto 1em;
-}
-/* Divs */
-.chapter {
-  margin: 0 auto 4em;
-}
-.section {
-  margin: 0 auto 3em;
-}
-/* Header */
-.ct {
-  font-size: 1.5em;
-  margin-top: 3em;
-  font-variant: small-caps;
-}
-/* first paragraph in a chapter/section */
-p.pf {
-  text-indent: 0;
-}
 .publisher {
   text-align: center;
   font-style: italic;
@@ -129,48 +115,97 @@ p.pf {
   margin: 0 auto 0;
   text-indent: 0;
 }
+
+/* Copyright page */
+.copyright {
+  margin-top: 4em;
+}
+p.copyright {
+  font-size: 0.75em;
+  text-indent: 0;
+  text-align: left;
+  margin: 1.5em auto 1em;
+}
+/* Page structure */
+.chapter {
+  margin: 0 auto 4em;
+}
+.section {
+  margin: 0 auto 3em;
+}
+
+/* Special Styles */
+
+/* Chapter title */
+.ct {
+  font-size: 1.5em;
+  margin-top: 3em;
+  font-variant: small-caps;
+}
+
+/* First paragraph in a chapter/section */
+p.pf {
+  text-indent: 0;
+}
+
+/* Attribution */
 .cite {
   text-align: right;
   font-variant: small-caps;
 }
+
 .l2 {
   text-indent: 4em;
 }
+
+/* Block Quote */
 .quote {
   font-size: 80%;
   margin: 1em auto;
   width: 80%;
   text-indent: 0;
 }
+
+/* Poetry */
+
+/* Poem wrapper (enclose the stazas of each poem within the staza div tag) */
 .stanza {
   width: 80%;
   margin: 1em auto;
   font-size: 80%;
   text-indent: 0;
 }
-.stanza h3 {
+
+/* Poem title (include within first staza tag */
   text-align: center;
   font-style: normal;
   font-size: 1.25em;
   margin-right: 2em;
 }
+/* Line of poetry (hanging indent on spillover line) */
 .stanza p {
   margin-left: 4em;
   text-align: left;
   text-indent: -2em;
 }
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+
+/* Footnotes */
+
+/* Footnotes wrapper */
 .footnotes {
   border-top: 1pt solid gray;
   font-family: sans-serif;
   margin: 1em;
   padding: 1em 0;
 }
+
+/* Footnotes paragraph */
 .footnotes p {
   margin-bottom: 1em;
   font-size: 1em;
-  text-indent: 0;
+  text-indent: 0;img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
