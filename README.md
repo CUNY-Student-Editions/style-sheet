@@ -100,7 +100,7 @@ City University of New York (CUNY)</p&gt;<br/>
 <hr/>
 
 <h1 id="formatting">3.0 Formatting Text</h1>
-<p>All text formatting should be done with CSS styles rather than HTML elements. For example, use <pre>&lt;span class=".it"&gt;</pre> to format a word in italics rather than <pre>&lt;i&gt;</pre>. This increases consistancy across e-readers and makes some changes to ebooks easier.</p>
+<p>All text formatting should be done with CSS styles rather than HTML elements. For example, use <code>&lt;span class=".it"&gt;</code> to format a word in italics rather than <code>&lt;i&gt;</code>. This increases consistancy across e-readers and makes some changes to ebooks easier.</p>
 <p>Similar to <a href="https://tei-c.org/" target="_blank">TEI encoding, the code of a text should help someone understand the structure of the page. That's why it's prefarable to style a stanza of poetry with a 
 <p><a href="#top">(Back to Top)</a></p>	
 
