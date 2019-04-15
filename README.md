@@ -10,12 +10,16 @@
 		</ul>
 	<li><a href="#formatting">3.0 Formatting Text</a></li>
 		<ul>
-			<li><a href="#poetry">3.1 Poetry/epigraph</a></li>
-			<li><a href="#footnotes">3.2 Footnotes</a></li>
+			<li><a href="#ct>3.1 Chapter title</a></li>
+			<li><a href="#pf">3.2 Chapter's first paragraph</a></li>
 			<li><a href="#attribution">3.3 Attribution</a></li>
-			<li><a href="all-else">3.4 When All Else Fails</a> (individual text formatting elements)</li>
+			<li><a href="#quote">3.4 Block quotes</a></li>
+			<li><a href="#poetry">3.5 Poetry/epigraph</a></li>
+			<li><a href="#footnotes">3.6 Footnotes</a></li>
+			<li><a href="#all-else">3.7 When All Else Fails</a> (individual text formatting elements)</li>
 		</ul>
-	<li><a href="#organized">3.0 How the Style Sheet is Organized</a></li>
+	<li><a href="#images">3.0 Images</li>
+	<li><a href="#organized">4.0 How the Style Sheet is Organized</a></li>
 </ul>
 <p><a href="#top">(Back to Top)</a></p>
 <hr/>
@@ -105,15 +109,28 @@ City University of New York (CUNY)</p&gt;<br/>
 <p>Similar to <a href="https://tei-c.org/" target="_blank">TEI encoding, the code of a text should help someone understand the structure of the page. That's why it's prefarable to style a stanza of poetry with a 
 <p><a href="#top">(Back to Top)</a></p>	
 
-<h2>Poetry/Epigraphs</h2>
+<h2 id="ct">3.1 Chapter Title</h2>
+<p>The title of a chapter or section has unique styling. Use <code>&lt;h1 class="ct"&gt;</code> (for "chapter title").</p>
+<p><a href="#top">(Back to Top)</a></p>	
+
+<h2 id="pf">3.2 First Paragraph of a Chapter</h2>
+<p>The first paragraph in a chapter or section has unique styling to differentiate it from other text. Therefore, the first paragraph in a chapter should use the <code>&lt;p class="pf"&gt;</code> (for "Paragraph, first").</p>
+<p><a href="#top">(Back to Top)</a></p>	
+
+<h2 id="attribution">3.3. Attribution</h2>
 <p>More soon.</p>
 <p><a href="#top">(Back to Top)</a></p>	
 
-<h2 id="poetry">3.1 Poetry/Epigraphs</h2>
-<p>
+<h2 id-"quote">3.4 Block Quotes</h2>
+<p>More soon.</p>
+<p><a href="#top">(Back to Top)</a></p>	
+			
+<h2 id="poetry">3.5 Poetry/Epigraphs</h2>
+<p>More soon.</p>
+<p>Organized by class="stanza", includes hanging indent for fluid text. 
 <p><a href="#top">(Back to Top)</a></p>	
 
-<h2 id="footnotes">3.2 Footnotes</h2>
+<h2 id="footnotes">3.6 Footnotes</h2>
 <p>CUNY Student Editions are designed as fluid texts, meaning that the layout of the page is mostly determined by a particular ereader. As a result, footnotes function more like endnotes, appearing at the bottom of the end of the section, chpater, or .html page.</p>
 <p>To create a footnote:</p>
 <ol>
@@ -134,7 +151,7 @@ City University of New York (CUNY)</p&gt;<br/>
 &lt;/body&gt;</code></pre></p>
 <p><a href="#top">(Back to Top)</a></p>	
 
-<h2 id="everything-else">3.4 Everything Else</h2>
+<h2 id="everything-else">3.7 Everything Else</h2>
 <p>These should be used sparingly, but help when you just can't get anything else to work or when the formatting is used only in a few instances.</p>
 <ul>
 	<li>Alignment</li>
@@ -155,7 +172,11 @@ City University of New York (CUNY)</p&gt;<br/>
 	</ul>
 <p><a href="#top">(Back to Top)</a></p>	
 
-<h1 id="organized">How the Style Sheet is Organized</a></h2>
+<h1 id="images">3.0 Images</a></h1>
+<p>More soon.</p>
+<p><a href="#top">(Back to Top)</a></p>
+
+<h1 id="organized">4.0 How the Style Sheet is Organized</a></h1>
   	<ul>
   		<li>Manifold Style</li>
   		<li>CUNY Student Edition - House Styles</li>
