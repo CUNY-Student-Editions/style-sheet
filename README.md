@@ -1,23 +1,23 @@
 # CUNY Student Editions CSS Style Sheet
 <h1 id="top">Table of Contents</h1>
-	<ul>
+<ul>
 	<li><a href="#how-to-use">1.0 How to Use this Style Sheet</a></li>
 	<li><a href="#pages-sections">2.0 Pages/Sections</a></li>
 		<ul>
 			<li><a href="#basic-structure">2.1 Basic Page Structure</a></li>
 			<li><a href="#title-page">2.2 Title Page</a></li>
 			<li><a href="#copyright-page">2.3 Copyright Page</a></li>
-			</ul>
-	<li><a href="#formatting">Formatting Text</a></li>
+		</ul>
+	<li><a href="#formatting">3.0 Formatting Text</a></li>
 		<ul>
 			<li>Poetry/epigraph</li>
-			<li>Footnotes</li>
+			<li><a href="#footnotes">Footnotes</a></li>
 			<li>When All Else Fails (individual text formatting elements)</li>
 		</ul>
 	<li><a href="#organized">3.0 How the Style Sheet is Organized</a></li>
-	</ul>
-	<p><a href="#top">(Back to Top)</a></p>
-	<hr/>
+</ul>
+<p><a href="#top">(Back to Top)</a></p>
+<hr/>
 	
 <h1 id="how-to-use">1.0 How to Use this Style Sheet</h1>
 <p>This is the default CSS style sheet used to create CUNY Student Editions. It is the code version of of our house styles, giving CUNY Student Editions their unique look and feel. It is desigend to give consistancy across ereaders, including CUNY Manifold where all CUNY Student Editions are published.</p>
@@ -68,7 +68,7 @@
 	<li>h3 = Author, Editor</li>
 	<li>p = Editor's Affiliation, CUNY Student Edition Banner, anything else</li>
 	</ul>
-<p>Example</p>
+<p><i>Example</i></p>
 <p><pre><code>&lt;h1 class="title"&gt;Adventures of Huckleberry Finn&lt;/h1&gt;<br/>
 &lt;h2 class="subtitle"&gt;(Tom Sawyer's Comrade)&lt;/h2&gt;<br/>
 &lt;h2 class="subtitle2"&gt;Scene: The Mississippi Valley&lt;br/&gt;<br/>
@@ -83,7 +83,7 @@ Time: Forty to Fifty Years Ago&lt;/h2&gt;<br/>
 <p>CUNY Student Editions are not copyrighted and so do not include this page. Instead, the license information is included in a Note about the Text. Styles for a copyright pages are included here, however, to assist others.</p>
 <p>Copyright pages have unique formatting and so use the <b>copyright</b> .div tag instead of the chapter/section .div tags.</p>
 <p>There are no headings for the copright pages, only <b>paragraph</b> tags.</p>
-<p>Example</p>
+<p><i>Example</i></p>
 <p><pre><code>&lt;body&gt;<br/>
  &lt;div class="copyright"&gt;<br/>
 &lt;p&gt;First Published in Boston: For the Author [Harriet Ann Jacobs], 1861.&lt;/p&gt;<br/>
@@ -99,16 +99,34 @@ City University of New York (CUNY)</p&gt;<br/>
 <p><a href="#top">(Back to Top)</a></p>	
 <hr/>
 
-<h1 id="formatting">Formatting Text</h1>
-<p>More soon</p>
+<h1 id="formatting">3.0 Formatting Text</h1>
+<p>All text formatting should be done with CSS styles rather than HTML elements. For example, use <pre>&lt;span class=".it"&gt;</pre> to format a word in italics rather than <pre>&lt;i&gt;</pre>. This increases consistancy across e-readers and makes some changes to ebooks easier.</p>
+<p>Similar to <a href="https://tei-c.org/" target="_blank">TEI encoding, the code of a text should help someone understand the structure of the page. That's why it's prefarable to style a stanza of poetry with a 
 <p><a href="#top">(Back to Top)</a></p>	
 
 <h2>Poetry/Epigraphs</h2>
 <p>More soon.</p>
 <p><a href="#top">(Back to Top)</a></p>	
 
-<h2>Footnotes</h2>
-<p>More soon.</p>
+<h2 id="footnotes">Footnotes</h2>
+<p>CUNY Student Editions are designed as fluid texts, meaning that the layout of the page is mostly determined by a particular ereader. As a result, footnotes function more like endnotes, appearing at the bottom of the end of the section, chpater, or .html page.</p>
+<p>To create a footnote:</p>
+<ol>
+	<li>Insert a numeral/letter in the text to indicate a footnote.</li>
+	<li>Style the numeral as superscript.</li>
+	<li>At the bottom of the section/chapter/page, insert the Footnotes Wrapper to create a horizontal rule and style the footnotes</li>
+	<li>Type your footnote.</li>
+	<li>Link your footnotes with an in-page hyperlink.</li>
+	</ol>
+<p><i>Example</i>
+<pre><code>&lt;body&gt;<br/>
+&lt;div class="chapter"&gt;<br/>
+&lt;p&gt;This is the text of your chapter&lt;span class="sup" id="cite-1"&gt;&lt;a href="#note-1"&gt;1&lt;/class&gt;&lt;/a&gt;&lt;/p&gt;<br/>
+&lt;div class="footnotes"&gt;<br/>
+&lt;p id="note-1"&gt;&lt;a href="#cite-1"&gt;[1] This is your note.&lt;/a&gt;&lt;/p&gt;<br/>
+&lt;/div&gt;<br/>
+&lt;/div&gt;<br/>
+&lt;/body&gt;</code></pre></p>
 <p><a href="#top">(Back to Top)</a></p>	
 
 <h2>Everything Else</h2>
