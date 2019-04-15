@@ -1,28 +1,34 @@
 # CUNY Student Editions CSS Style Sheet
+<p><i>Documentation version 2.1</i></p>
 <h1 id="top">Table of Contents</h1>
-	<ul>
+<ul>
 	<li><a href="#how-to-use">1.0 How to Use this Style Sheet</a></li>
 	<li><a href="#pages-sections">2.0 Pages/Sections</a></li>
 		<ul>
 			<li><a href="#basic-structure">2.1 Basic Page Structure</a></li>
 			<li><a href="#title-page">2.2 Title Page</a></li>
 			<li><a href="#copyright-page">2.3 Copyright Page</a></li>
-			</ul>
-	<li><a href="#formatting">Formatting Text</a></li>
-		<ul>
-			<li>Poetry/epigraph</li>
-			<li>Footnotes</li>
-			<li>When All Else Fails (individual text formatting elements)</li>
 		</ul>
-	<li><a href="#organized">3.0 How the Style Sheet is Organized</a></li>
-	</ul>
-	<p><a href="#top">(Back to Top)</a></p>
-	<hr/>
+	<li><a href="#formatting">3.0 Formatting Text</a></li>
+		<ul>
+			<li><a href="#ct>3.1 Chapter title</a></li>
+			<li><a href="#pf">3.2 Chapter's first paragraph</a></li>
+			<li><a href="#attribution">3.3 Attribution</a></li>
+			<li><a href="#quote">3.4 Block quotes</a></li>
+			<li><a href="#poetry">3.5 Poetry/epigraph</a></li>
+			<li><a href="#footnotes">3.6 Footnotes</a></li>
+			<li><a href="#all-else">3.7 When All Else Fails</a> (individual text formatting elements)</li>
+		</ul>
+	<li><a href="#images">4.0 Images</li>
+	<li><a href="#organized">5.0 How the Style Sheet is Organized</a></li>
+</ul>
+<p><a href="#top">(Back to Top)</a></p>
+<hr/>
 	
 <h1 id="how-to-use">1.0 How to Use this Style Sheet</h1>
 <p>This is the default CSS style sheet used to create CUNY Student Editions. It is the code version of of our house styles, giving CUNY Student Editions their unique look and feel. It is desigend to give consistancy across ereaders, including CUNY Manifold where all CUNY Student Editions are published.</p>
-<p>This sytle sheet is offered to the public at no cost under a Creative Commons <a href="https://creativecommons.org/licenses/by/4.0/" target=”_blank”>Attribution 4.0 International License</a>. You are free to share, remix or reuse it anyway to digitize your own texs.</p>
-<p>In return, all we ask is that you please include a shout out to CUNY Student Editions and our GitHub site (https://github.com/CUNY-Student-Editions)in your code or text.</p>
+<p>This sytle sheet is offered to the public at no cost under a Creative Commons <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Attribution 4.0 International License</a>. You are free to share, remix or reuse it anyway to digitize your own texs.</p>
+<p>In return, all we ask is that you please include a shout out to CUNY Student Editions and our GitHub site (<a href="http://github.com/CUNY-Student-Editions" target="_blank">www.github.com/CUNY-Student-Editions</a>)in your code or text.</p>
 <p><a href="#top">(Back to Top)</a></p>
 <hr/>
   
@@ -68,7 +74,7 @@
 	<li>h3 = Author, Editor</li>
 	<li>p = Editor's Affiliation, CUNY Student Edition Banner, anything else</li>
 	</ul>
-<p>Example</p>
+<p><i>Example</i></p>
 <p><pre><code>&lt;h1 class="title"&gt;Adventures of Huckleberry Finn&lt;/h1&gt;<br/>
 &lt;h2 class="subtitle"&gt;(Tom Sawyer's Comrade)&lt;/h2&gt;<br/>
 &lt;h2 class="subtitle2"&gt;Scene: The Mississippi Valley&lt;br/&gt;<br/>
@@ -83,7 +89,7 @@ Time: Forty to Fifty Years Ago&lt;/h2&gt;<br/>
 <p>CUNY Student Editions are not copyrighted and so do not include this page. Instead, the license information is included in a Note about the Text. Styles for a copyright pages are included here, however, to assist others.</p>
 <p>Copyright pages have unique formatting and so use the <b>copyright</b> .div tag instead of the chapter/section .div tags.</p>
 <p>There are no headings for the copright pages, only <b>paragraph</b> tags.</p>
-<p>Example</p>
+<p><i>Example</i></p>
 <p><pre><code>&lt;body&gt;<br/>
  &lt;div class="copyright"&gt;<br/>
 &lt;p&gt;First Published in Boston: For the Author [Harriet Ann Jacobs], 1861.&lt;/p&gt;<br/>
@@ -99,24 +105,79 @@ City University of New York (CUNY)</p&gt;<br/>
 <p><a href="#top">(Back to Top)</a></p>	
 <hr/>
 
-<h1 id="formatting">Formatting Text</h1>
-<p>More soon</p>
+<h1 id="formatting">3.0 Formatting Text</h1>
+<p>All text formatting should be done with CSS styles rather than HTML elements. For example, use <code>&lt;span class=".it"&gt;</code> to format a word in italics rather than <code>&lt;i&gt;</code>. This increases consistancy across e-readers and makes some changes to ebooks easier.</p>
+<p>Similar to <a href="https://tei-c.org/" target="_blank">TEI encoding, the code of a text should help someone understand the structure of the page. That's why it's prefarable to style a stanza of poetry with a 
 <p><a href="#top">(Back to Top)</a></p>	
 
-<h2>Poetry/Epigraphs</h2>
+<h2 id="ct">3.1 Chapter Title</h2>
+<p>The title of a chapter or section has unique styling. Use <code>&lt;h1 class="ct"&gt;</code> (for "chapter title").</p>
+<p><a href="#top">(Back to Top)</a></p>	
+
+<h2 id="pf">3.2 First Paragraph of a Chapter</h2>
+<p>The first paragraph in a chapter or section has unique styling to differentiate it from other text. Therefore, the first paragraph in a chapter should use the <code>&lt;p class="pf"&gt;</code> (for "Paragraph, first").</p>
+<p><a href="#top">(Back to Top)</a></p>	
+
+<h2 id="attribution">3.3. Attribution</h2>
 <p>More soon.</p>
 <p><a href="#top">(Back to Top)</a></p>	
 
-<h2>Footnotes</h2>
+<h2 id-"quote">3.4 Block Quotes</h2>
 <p>More soon.</p>
 <p><a href="#top">(Back to Top)</a></p>	
-
-<h2>Everything Else</h2>
+			
+<h2 id="poetry">3.5 Poetry/Epigraphs</h2>
 <p>More soon.</p>
+<p>Organized by class="stanza", includes hanging indent for fluid text. 
 <p><a href="#top">(Back to Top)</a></p>	
-<hr/>
 
-<h1 id="organized">How the Style Sheet is Organized</a></h2>
+<h2 id="footnotes">3.6 Footnotes</h2>
+<p>CUNY Student Editions are designed as fluid texts, meaning that the layout of the page is mostly determined by a particular ereader. As a result, footnotes function more like endnotes, appearing at the bottom of the end of the section, chpater, or .html page.</p>
+<p>To create a footnote:</p>
+<ol>
+	<li>Insert a numeral/letter in the text to indicate a footnote.</li>
+	<li>Style the numeral as superscript.</li>
+	<li>At the bottom of the section/chapter/page, insert the Footnotes Wrapper to create a horizontal rule and style the footnotes</li>
+	<li>Type your footnote.</li>
+	<li>Link your footnotes with an in-page hyperlink.</li>
+	</ol>
+<p><i>Example</i>
+<pre><code>&lt;body&gt;<br/>
+&lt;div class="chapter"&gt;<br/>
+&lt;p&gt;This is the text of your chapter&lt;span class="sup" id="cite-1"&gt;&lt;a href="#note-1"&gt;1&lt;/class&gt;&lt;/a&gt;&lt;/p&gt;<br/>
+&lt;div class="footnotes"&gt;<br/>
+&lt;p id="note-1"&gt;&lt;a href="#cite-1"&gt;[1]&lt;/a&gt; This is your note.&lt;/p&gt;<br/>
+&lt;/div&gt;<br/>
+&lt;/div&gt;<br/>
+&lt;/body&gt;</code></pre></p>
+<p><a href="#top">(Back to Top)</a></p>	
+
+<h2 id="all-else">3.7 Everything Else</h2>
+<p>These should be used sparingly, but help when you just can't get anything else to work or when the formatting is used only in a few instances.</p>
+<ul>
+	<li>Alignment</li>
+		<ul>
+			<li>Center ("center")</li>
+			<li>Right justified ("rt")</li>
+		</ul>
+	<li>Supepscript/subscript</li>
+		<ul>
+			<li>Superscript ("sup")</li>
+		</ul>
+	<li>Font Style</li>
+		<ul>
+			<li><i>Italics</i> ("it")</li>
+			<li><b>Bold</b> ("bld")</li>
+			<li>SMALL CAPS ("sc")</li>
+		</ul>
+	</ul>
+<p><a href="#top">(Back to Top)</a></p>	
+
+<h1 id="images">4.0 Images</a></h1>
+<p>More soon.</p>
+<p><a href="#top">(Back to Top)</a></p>
+
+<h1 id="organized">5.0 How the Style Sheet is Organized</a></h1>
   	<ul>
   		<li>Manifold Style</li>
   		<li>CUNY Student Edition - House Styles</li>

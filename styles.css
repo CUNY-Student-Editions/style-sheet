@@ -191,7 +191,7 @@ p.pf {
 
 /* Footnotes */
 
-/* Footnotes wrapper */
+/* Footnotes wrapper - creates a horizontal rule underwhich uniquely formatted text appears for notes */
 .footnotes {
   border-top: 1pt solid gray;
   font-family: sans-serif;
