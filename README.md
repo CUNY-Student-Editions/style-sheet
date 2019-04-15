@@ -27,8 +27,8 @@
 	
 <h1 id="how-to-use">1.0 How to Use this Style Sheet</h1>
 <p>This is the default CSS style sheet used to create CUNY Student Editions. It is the code version of of our house styles, giving CUNY Student Editions their unique look and feel. It is desigend to give consistancy across ereaders, including CUNY Manifold where all CUNY Student Editions are published.</p>
-<p>This sytle sheet is offered to the public at no cost under a Creative Commons <a href="https://creativecommons.org/licenses/by/4.0/" target=”_blank”>Attribution 4.0 International License</a>. You are free to share, remix or reuse it anyway to digitize your own texs.</p>
-<p>In return, all we ask is that you please include a shout out to CUNY Student Editions and our GitHub site (https://github.com/CUNY-Student-Editions)in your code or text.</p>
+<p>This sytle sheet is offered to the public at no cost under a Creative Commons <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Attribution 4.0 International License</a>. You are free to share, remix or reuse it anyway to digitize your own texs.</p>
+<p>In return, all we ask is that you please include a shout out to CUNY Student Editions and our GitHub site (<a href="http://github.com/CUNY-Student-Editions" target="_blank">www.github.com/CUNY-Student-Editions</a>)in your code or text.</p>
 <p><a href="#top">(Back to Top)</a></p>
 <hr/>
   
