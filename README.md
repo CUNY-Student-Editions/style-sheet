@@ -19,8 +19,8 @@
 			<li><a href="#footnotes">3.6 Footnotes</a></li>
 			<li><a href="#all-else">3.7 When All Else Fails</a> (individual text formatting elements)</li>
 		</ul>
-	<li><a href="#images">3.0 Images</li>
-	<li><a href="#organized">4.0 How the Style Sheet is Organized</a></li>
+	<li><a href="#images">4.0 Images</li>
+	<li><a href="#organized">5.0 How the Style Sheet is Organized</a></li>
 </ul>
 <p><a href="#top">(Back to Top)</a></p>
 <hr/>
