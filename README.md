@@ -1,4 +1,5 @@
 # CUNY Student Editions CSS Style Sheet
+<p><i>Documentation version 2.1</i></p>
 <h1 id="top">Table of Contents</h1>
 <ul>
 	<li><a href="#how-to-use">1.0 How to Use this Style Sheet</a></li>
