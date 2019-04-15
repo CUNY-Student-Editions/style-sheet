@@ -151,7 +151,7 @@ City University of New York (CUNY)</p&gt;<br/>
 &lt;/body&gt;</code></pre></p>
 <p><a href="#top">(Back to Top)</a></p>	
 
-<h2 id="everything-else">3.7 Everything Else</h2>
+<h2 id="all-else">3.7 Everything Else</h2>
 <p>These should be used sparingly, but help when you just can't get anything else to work or when the formatting is used only in a few instances.</p>
 <ul>
 	<li>Alignment</li>
@@ -172,11 +172,11 @@ City University of New York (CUNY)</p&gt;<br/>
 	</ul>
 <p><a href="#top">(Back to Top)</a></p>	
 
-<h1 id="images">3.0 Images</a></h1>
+<h1 id="images">4.0 Images</a></h1>
 <p>More soon.</p>
 <p><a href="#top">(Back to Top)</a></p>
 
-<h1 id="organized">4.0 How the Style Sheet is Organized</a></h1>
+<h1 id="organized">5.0 How the Style Sheet is Organized</a></h1>
   	<ul>
   		<li>Manifold Style</li>
   		<li>CUNY Student Edition - House Styles</li>
