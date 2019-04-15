@@ -10,9 +10,10 @@
 		</ul>
 	<li><a href="#formatting">3.0 Formatting Text</a></li>
 		<ul>
-			<li>Poetry/epigraph</li>
-			<li><a href="#footnotes">Footnotes</a></li>
-			<li>When All Else Fails (individual text formatting elements)</li>
+			<li><a href="#poetry">3.1 Poetry/epigraph</a></li>
+			<li><a href="#footnotes">3.2 Footnotes</a></li>
+			<li><a href="#attribution">3.3 Attribution</a></li>
+			<li><a href="all-else">3.4 When All Else Fails</a> (individual text formatting elements)</li>
 		</ul>
 	<li><a href="#organized">3.0 How the Style Sheet is Organized</a></li>
 </ul>
@@ -108,7 +109,11 @@ City University of New York (CUNY)</p&gt;<br/>
 <p>More soon.</p>
 <p><a href="#top">(Back to Top)</a></p>	
 
-<h2 id="footnotes">Footnotes</h2>
+<h2 id="poetry">3.1 Poetry/Epigraphs</h2>
+<p>
+<p><a href="#top">(Back to Top)</a></p>	
+
+<h2 id="footnotes">3.2 Footnotes</h2>
 <p>CUNY Student Editions are designed as fluid texts, meaning that the layout of the page is mostly determined by a particular ereader. As a result, footnotes function more like endnotes, appearing at the bottom of the end of the section, chpater, or .html page.</p>
 <p>To create a footnote:</p>
 <ol>
@@ -123,16 +128,32 @@ City University of New York (CUNY)</p&gt;<br/>
 &lt;div class="chapter"&gt;<br/>
 &lt;p&gt;This is the text of your chapter&lt;span class="sup" id="cite-1"&gt;&lt;a href="#note-1"&gt;1&lt;/class&gt;&lt;/a&gt;&lt;/p&gt;<br/>
 &lt;div class="footnotes"&gt;<br/>
-&lt;p id="note-1"&gt;&lt;a href="#cite-1"&gt;[1] This is your note.&lt;/a&gt;&lt;/p&gt;<br/>
+&lt;p id="note-1"&gt;&lt;a href="#cite-1"&gt;[1]&lt;/a&gt; This is your note.&lt;/p&gt;<br/>
 &lt;/div&gt;<br/>
 &lt;/div&gt;<br/>
 &lt;/body&gt;</code></pre></p>
 <p><a href="#top">(Back to Top)</a></p>	
 
-<h2>Everything Else</h2>
-<p>More soon.</p>
+<h2 id="everything-else">3.4 Everything Else</h2>
+<p>These should be used sparingly, but help when you just can't get anything else to work or when the formatting is used only in a few instances.</p>
+<ul>
+	<li>Alignment</li>
+		<ul>
+			<li>Center ("center")</li>
+			<li>Right justified ("rt")</li>
+		</ul>
+	<li>Supepscript/subscript</li>
+		<ul>
+			<li>Superscript ("sup")</li>
+		</ul>
+	<li>Font Style</li>
+		<ul>
+			<li><i>Italics</i> ("it")</li>
+			<li><b>Bold</b> ("bld")</li>
+			<li>SMALL CAPS ("sc")</li>
+		</ul>
+	</ul>
 <p><a href="#top">(Back to Top)</a></p>	
-<hr/>
 
 <h1 id="organized">How the Style Sheet is Organized</a></h2>
   	<ul>
