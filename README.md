@@ -1,35 +1,45 @@
 # CUNY Student Editions CSS Style Sheet
-<p><i>Documentation version 2.1</i></p>
-<h1 id="top">Table of Contents</h1>
-<ul>
-	<li><a href="#how-to-use">1.0 How to Use this Style Sheet</a></li>
-	<li><a href="#pages-sections">2.0 Pages/Sections</a></li>
-		<ul>
-			<li><a href="#basic-structure">2.1 Basic Page Structure</a></li>
-			<li><a href="#title-page">2.2 Title Page</a></li>
-			<li><a href="#copyright-page">2.3 Copyright Page</a></li>
-		</ul>
-	<li><a href="#formatting">3.0 Formatting Text</a></li>
-		<ul>
-			<li><a href="#ct>3.1 Chapter title</a></li>
-			<li><a href="#pf">3.2 Chapter's first paragraph</a></li>
-			<li><a href="#attribution">3.3 Attribution</a></li>
-			<li><a href="#quote">3.4 Block quotes</a></li>
-			<li><a href="#poetry">3.5 Poetry/epigraph</a></li>
-			<li><a href="#footnotes">3.6 Footnotes</a></li>
-			<li><a href="#all-else">3.7 When All Else Fails</a> (individual text formatting elements)</li>
-		</ul>
-	<li><a href="#images">4.0 Images</li>
-	<li><a href="#organized">5.0 How the Style Sheet is Organized</a></li>
-</ul>
-<p><a href="#top">(Back to Top)</a></p>
-<hr/>
-	
-<h1 id="how-to-use">1.0 How to Use this Style Sheet</h1>
-<p>This is the default CSS style sheet used to create CUNY Student Editions. It is the code version of of our house styles, giving CUNY Student Editions their unique look and feel. It is desigend to give consistancy across ereaders, including CUNY Manifold where all CUNY Student Editions are published.</p>
-<p>This sytle sheet is offered to the public at no cost under a Creative Commons <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Attribution 4.0 International License</a>. You are free to share, remix or reuse it anyway to digitize your own texs.</p>
-<p>In return, all we ask is that you please include a shout out to CUNY Student Editions and our GitHub site (<a href="http://github.com/CUNY-Student-Editions" target="_blank">www.github.com/CUNY-Student-Editions</a>)in your code or text.</p>
-<p><a href="#top">(Back to Top)</a></p>
+<div class="version">
+	<p><strong>Documentation version 3.0</strong></p>
+	<p>Released 7/9/2020</p>
+</div>
+<div class="section" id="TOC">
+	<h1 id="top">Table of Contents</h1>
+	<ul>
+		<li><a href="#1.0">1.0 Basics</a></li>
+		<li><a href="#pages-sections">2.0 Pages/Sections</a></li>
+			<ul>
+				<li><a href="#basic-structure">2.1 Basic Page Structure</a></li>
+				<li><a href="#title-page">2.2 Title Page</a></li>
+				<li><a href="#copyright-page">2.3 Copyright Page</a></li>
+			</ul>
+		<li><a href="#formatting">3.0 Formatting Text</a></li>
+			<ul>
+				<li><a href="#ct>3.1 Chapter title</a></li>
+				<li><a href="#pf">3.2 Chapter's first paragraph</a></li>
+				<li><a href="#attribution">3.3 Attribution</a></li>
+				<li><a href="#quote">3.4 Block quotes</a></li>
+				<li><a href="#poetry">3.5 Poetry/epigraph</a></li>
+				<li><a href="#footnotes">3.6 Footnotes</a></li>
+				<li><a href="#all-else">3.7 When All Else Fails</a> (individual text formatting elements)</li>
+			</ul>
+		<li><a href="#images">4.0 Images</li>
+		<li><a href="#organized">5.0 How the Style Sheet is Organized</a></li>
+	</ul>
+	<p><a href="#top">(Back to Top)</a></p>
+	<hr/>
+</div>
+<div class="section" id="1.0">
+	<h1>1.0 Basics</h1>
+		<h2 id="1.1">1.1 How to use this Style Sheet</h2>
+			<p>A <em>Style Sheet</em> is a <strong>.CSS file</strong> that defines how a text <em>looks</em>. More precisely, it defines how an electronic reader should render the HTML files that form an electronic text. It lists the fonts, margins, and line-heights, etc., used throughout the text. In this respect, you might think about this .CSS file as the in-house style-guide for CUNY Student Editions. By using the same basic settings to syle out texts, we ensure the series has a consistent look and feel. <em>This</em> style sheet is designed to do <em>more</em>, however.</p>
+			<p>This style sheet is a collaboration between CUNY Student Edition editors to create a document that <em>assists</em> other editors working to create <em>accessible</em> digital editions of texts that render accurately on e-readers and are reliably enhanced with acceddibility tools such as screen-readers. In other words, it's our intention that if you use this .CSS file as the template for transcribing or encoding <em>your</em> text, you'll arrive at an edition that is accessible across many platforms and devices even if you are new to coding. You can even customize the look by tweaking these settings or writing your own.
+			<p>How, exactly, this is achieved through a .CSS file is described briefly in the next section. If you know how .CSS and .HTML work or you just want to dive in, skip down to the <strong> PUT A LINK HERE </strong>.</p>
+		<h2>1.2 Mark-up Language, Accessibilty, and E-texts</h2>
+			<p>Most people think of  styling a text based on their own experience. Who hasn't played with fonts to find one we think looks <em>just</em> right? Or played with margins or based on the mark-up language of an electronic text. This CSS file defines the look of CUNY Student Editions. It is the CSS code version of our house styles which can be customized for individual editions as needed. With this style sheet, you should be able to efficiently create accessible, easy-to-use e-book editions of most texts.</p>	
+	<p>This sytle sheet is offered to the public at no cost under a Creative Commons <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Attribution 4.0 International License</a>. You are free to share, remix or reuse it anyway to digitize your own texs. In return, all we ask is that you please include a shout out to CUNY Student Editions and our GitHub site (<a href="http://github.com/CUNY-Student-Editions" target="_blank">www.github.com/CUNY-Student-Editions</a>)in your code or text.</p>
+	<p><a href="#top">(Back to Top)</a></p>
+<div class="section" id="1.0">
 <hr/>
   
 <h1 id="pages-sections">2.0 Pages/Sections</h1>
